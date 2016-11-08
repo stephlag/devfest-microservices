@@ -1,0 +1,9 @@
+Package: ${build.finalName}
+Version: ${project.version}
+Section: misc
+Priority: optional
+Architecture: all
+Depends: oracle-java8-installer | openjdk-8-jre
+Maintainer: Stephan Lagraulet <slagraulet@ippon.fr>
+Description: DevFest Microservices
+Distribution: development
