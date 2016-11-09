@@ -1,0 +1,5 @@
+#!/bin/bash
+
+
+# start services
+start kpi-service
