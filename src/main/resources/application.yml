@@ -1,2 +1,2 @@
 spring.application.name: kpi-service
-server.port: 8076
+server.port: 8080
