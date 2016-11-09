@@ -138,7 +138,7 @@
                                     <version>${project.version}</version>
                                     <overWrite>true</overWrite>
                                     <outputDirectory>${project.build.directory}</outputDirectory>
-                                    <destFileName>${build.finalName}.jar</destFileName>
+                                    <destFileName>${project.build.finalName}.jar</destFileName>
                                 </artifactItem>
                             </artifactItems>
                         </configuration>
@@ -162,19 +162,19 @@
                         <configuration>
                             <dataSet>
                                 <data>
-                                    <src>${project.build.directory}/${build.finalName}.jar</src>
+                                    <src>${project.build.directory}/${project.build.finalName}.jar</src>
                                     <type>file</type>
                                     <mapper>
                                         <type>perm</type>
-                                        <prefix>/var/${build.finalName}</prefix>
+                                        <prefix>/var/${project.build.finalName}</prefix>
                                         <filemode>755</filemode>
                                     </mapper>
                                 </data>
                                 <data>
                                     <type>link</type>
                                     <symlink>true</symlink>
-                                    <linkName>/etc/init.d/${build.finalName}</linkName>
-                                    <linkTarget>/var/${build.finalName}/${build.finalName}.jar</linkTarget>
+                                    <linkName>/etc/init.d/${project.build.finalName}</linkName>
+                                    <linkTarget>/var/${project.build.finalName}/${project.build.finalName}.jar</linkTarget>
                                 </data>
                             </dataSet>
                         </configuration>
