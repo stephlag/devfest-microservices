@@ -1,4 +1,4 @@
-Package: ${build.finalName}
+Package: ${project.build.finalName}
 Version: ${project.version}
 Section: misc
 Priority: optional
