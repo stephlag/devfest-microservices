@@ -151,7 +151,7 @@
                 <version>1.5</version>
                 <configuration>
                     <controlDir>${project.build.directory}/classes/control</controlDir>
-                    <deb>kpi-service/${project.artifactId}_${project.version}_all.deb</deb>
+                    <deb>${project.build.directory}/${project.artifactId}_${project.version}_all.deb</deb>
                 </configuration>
                 <executions>
                     <execution>
