@@ -2,4 +2,4 @@
 
 
 # start services
-service start kpi-service
+# start kpi-service
