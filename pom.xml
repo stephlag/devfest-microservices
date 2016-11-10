@@ -10,7 +10,7 @@
         <version>1.4.1.RELEASE</version>
     </parent>
 
-    <artifactId>kpi-service</artifactId>
+    <artifactId>kpi</artifactId>
     <version>2.0.0</version>
     <name>KPI service</name>
     <description>A Spring Boot service that provides KPI for the overall services</description>
