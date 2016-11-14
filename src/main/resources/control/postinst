@@ -2,4 +2,4 @@
 
 
 # start services
-sudo service kpi-2.2.0 start
+sudo service kpi-2.3.0 start
